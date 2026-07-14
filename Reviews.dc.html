@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    body{margin:0;background:#181511;font-family:'Public Sans',sans-serif;color:#F3EEE3;}
+    h1,h2,h3{font-family:'Fraunces',serif;margin:0;}
+    .mono{font-family:'IBM Plex Mono',monospace;letter-spacing:0.04em;text-transform:uppercase;}
+    a{text-decoration:none;}
+    .navlink{color:#C9BFA9;font-size:14px;}
+    .navlink:hover{color:#D9A441;}
+    .ph-img{background:repeating-linear-gradient(135deg, currentColor 0 2px, transparent 2px 10px);display:flex;align-items:center;justify-content:center;text-align:center;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.03em;text-transform:uppercase;color:#5A5040;}
+  </style>
+</helmet>
+
+<div style="max-width:1280px;margin:0 auto;">
+
+  <nav style="display:flex;align-items:center;justify-content:space-between;padding:22px 48px;border-bottom:1px solid #3A3428;">
+    <a href="Home.dc.html" style="font-size:20px;font-weight:600;color:#F3EEE3;">Владислав</a>
+    <div style="display:flex;gap:28px;">
+      <a href="About.dc.html" class="navlink">Обо мне</a>
+      <a href="Directions.dc.html" class="navlink">Направления и цены</a>
+      <a href="Materials.dc.html" class="navlink" style="color:#F3EEE3;font-weight:600;">Материалы</a>
+      <a href="Reviews.dc.html" class="navlink">Отзывы</a>
+      <a href="Contact.dc.html" class="navlink">Контакты</a>
+    </div>
+  </nav>
+
+  <div style="padding:70px 48px 20px;">
+    <span class="mono" style="color:#C1543F;font-size:13px;">Материалы</span>
+    <h1 style="font-size:44px;font-weight:500;margin-top:14px;max-width:700px;">По каким учебникам</h1>
+    <p style="max-width:600px;margin-top:16px;color:#A69C87;font-size:15.5px;">Международные программы вместо школьных Spotlight/Starlight — выбираю серию под возраст, уровень и цель ученика.</p>
+  </div>
+
+  <div style="padding:30px 48px 90px;">
+    <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:22px 18px;">
+
+      <div style="display:flex;flex-direction:column;gap:10px;">
+        <div style="aspect-ratio:3/4;border:1px solid #3A3428;overflow:hidden;"><img src="uploads/super-safari.png" alt="Super Safari" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+        <div style="font-size:12.5px;color:#A69C87;text-align:center;"><b style="color:#E4DCC9;">Cambridge</b> · малыши</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px;">
+        <div style="aspect-ratio:3/4;border:1px solid #3A3428;overflow:hidden;"><img src="uploads/playway-to-english.png" alt="Playway to English" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+        <div style="font-size:12.5px;color:#A69C87;text-align:center;"><b style="color:#E4DCC9;">Cambridge</b> · от 5 лет</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px;">
+        <div style="aspect-ratio:3/4;border:1px solid #3A3428;overflow:hidden;"><img src="uploads/family-and-friends.png" alt="Family and Friends" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+        <div style="font-size:12.5px;color:#A69C87;text-align:center;"><b style="color:#E4DCC9;">Oxford</b> · дошкольники, школьники</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px;">
+        <div style="aspect-ratio:3/4;border:1px solid #3A3428;overflow:hidden;"><img src="uploads/lets-go.png" alt="Let's Go" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+        <div style="font-size:12.5px;color:#A69C87;text-align:center;"><b style="color:#E4DCC9;">Oxford</b> · младшие школьники</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px;">
+        <div style="aspect-ratio:3/4;border:1px solid #3A3428;overflow:hidden;"><img src="uploads/story-central.png" alt="Story Central" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+        <div style="font-size:12.5px;color:#A69C87;text-align:center;"><b style="color:#E4DCC9;">Macmillan</b> · сторителлинг</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px;">
+        <div style="aspect-ratio:3/4;border:1px solid #3A3428;overflow:hidden;"><img src="uploads/oxford-discover.png" alt="Oxford Discover" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+        <div style="font-size:12.5px;color:#A69C87;text-align:center;"><b style="color:#E4DCC9;">Oxford</b> · темы и проекты</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px;">
+        <div style="aspect-ratio:3/4;border:1px solid #3A3428;overflow:hidden;"><img src="uploads/kids-box.png" alt="Kid's Box" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+        <div style="font-size:12.5px;color:#A69C87;text-align:center;"><b style="color:#E4DCC9;">Cambridge</b> · YLE</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px;">
+        <div style="aspect-ratio:3/4;border:1px solid #3A3428;overflow:hidden;"><img src="uploads/prepare.webp" alt="Prepare" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+        <div style="font-size:12.5px;color:#A69C87;text-align:center;"><b style="color:#E4DCC9;">Cambridge</b> · к экзаменам</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px;">
+        <div style="aspect-ratio:3/4;border:1px solid #3A3428;overflow:hidden;"><img src="uploads/focus.png" alt="Focus" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+        <div style="font-size:12.5px;color:#A69C87;text-align:center;"><b style="color:#E4DCC9;">Pearson</b> · подростки, взрослые</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px;">
+        <div style="aspect-ratio:3/4;border:1px solid #3A3428;overflow:hidden;"><img src="uploads/empower.png" alt="Empower" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+        <div style="font-size:12.5px;color:#A69C87;text-align:center;"><b style="color:#E4DCC9;">Cambridge Assessment</b></div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px;">
+        <div style="aspect-ratio:3/4;border:1px solid #3A3428;overflow:hidden;"><img src="uploads/gateaway.png" alt="Gateway" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+        <div style="font-size:12.5px;color:#A69C87;text-align:center;"><b style="color:#E4DCC9;">Macmillan</b> · академический уклон</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px;">
+        <div style="aspect-ratio:3/4;border:1px solid #3A3428;overflow:hidden;"><img src="uploads/speakout.png" alt="Speak Out" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+        <div style="font-size:12.5px;color:#A69C87;text-align:center;"><b style="color:#E4DCC9;">Pearson</b> · речь, BBC</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px;">
+        <div style="aspect-ratio:3/4;border:1px solid #3A3428;overflow:hidden;"><img src="uploads/english-file.png" alt="English File" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+        <div style="font-size:12.5px;color:#A69C87;text-align:center;"><b style="color:#E4DCC9;">Oxford</b> · классика для взрослых</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px;">
+        <div style="aspect-ratio:3/4;border:1px solid #3A3428;overflow:hidden;"><img src="uploads/english-for-everyone.png" alt="English for Everyone" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+        <div style="font-size:12.5px;color:#A69C87;text-align:center;"><b style="color:#E4DCC9;">DK</b> · взрослые, наглядно</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px;">
+        <div style="aspect-ratio:3/4;border:1px solid #3A3428;overflow:hidden;"><img src="uploads/outcomes.png" alt="Outcomes" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+        <div style="font-size:12.5px;color:#A69C87;text-align:center;"><b style="color:#E4DCC9;">Nat Geo Learning</b> · реальные темы</div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer style="padding:26px 48px;border-top:1px solid #3A3428;text-align:center;font-size:13px;color:#7A6E5A;">
+    © Владислав — репетитор английского
+  </footer>
+
+</div>
+
+</x-dc>
+</body>
+</html>

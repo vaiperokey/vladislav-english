@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    body{margin:0;background:#181511;font-family:'Public Sans',sans-serif;color:#F3EEE3;}
+    h1,h2,h3{font-family:'Fraunces',serif;margin:0;}
+    .mono{font-family:'IBM Plex Mono',monospace;letter-spacing:0.04em;text-transform:uppercase;}
+    a{text-decoration:none;}
+    .ph-img{background:repeating-linear-gradient(135deg, currentColor 0 2px, transparent 2px 10px);display:flex;align-items:center;justify-content:center;text-align:center;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.03em;text-transform:uppercase;color:#5A5040;}
+    .navlink{color:#C9BFA9;font-size:14px;}
+    .navlink:hover{color:#D9A441;}
+  </style>
+</helmet>
+
+<div style="max-width:1280px;margin:0 auto;">
+
+  <nav style="display:flex;align-items:center;justify-content:space-between;padding:22px 48px;border-bottom:1px solid #3A3428;">
+    <a href="Home.dc.html" style="font-size:20px;font-weight:600;color:#F3EEE3;">Владислав</a>
+    <div style="display:flex;gap:28px;">
+      <a href="About.dc.html" class="navlink" style="color:#F3EEE3;font-weight:600;">Обо мне</a>
+      <a href="Directions.dc.html" class="navlink">Направления и цены</a>
+      <a href="Materials.dc.html" class="navlink">Материалы</a>
+      <a href="Reviews.dc.html" class="navlink">Отзывы</a>
+      <a href="Contact.dc.html" class="navlink">Контакты</a>
+    </div>
+  </nav>
+
+  <div style="padding:70px 48px 30px;">
+    <span class="mono" style="color:#C1543F;font-size:13px;">Обо мне</span>
+    <h1 style="font-size:44px;font-weight:500;margin-top:14px;max-width:700px;">Образование и опыт</h1>
+  </div>
+
+  <div style="display:grid;grid-template-columns:0.9fr 1.3fr;gap:48px;padding:20px 48px 80px;align-items:start;">
+    <div style="aspect-ratio:3/4;border:1px solid #3A3428;overflow:hidden;"><img src="uploads/IMG_7016.JPG" alt="Владислав" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+
+    <div>
+      <div style="border-top:1px solid #3A3428;padding:18px 0;">
+        <span class="mono" style="color:#A69C87;font-size:12px;display:block;margin-bottom:6px;">Высшее образование</span>
+        <p style="margin:0;font-size:16px;color:#E4DCC9;">Международные отношения, мировая политика и международный бизнес — с углублённым английским и испанским языками.</p>
+      </div>
+      <div style="border-top:1px solid #3A3428;padding:18px 0;">
+        <span class="mono" style="color:#A69C87;font-size:12px;display:block;margin-bottom:6px;">Магистратура</span>
+        <p style="margin:0;font-size:16px;color:#E4DCC9;">Психолого-педагогическое образование, профиль «семейное консультирование». Помогает объяснять сложное просто и находить подход к разным ученикам.</p>
+      </div>
+      <div style="border-top:1px solid #3A3428;padding:18px 0;border-bottom:1px solid #3A3428;">
+        <span class="mono" style="color:#A69C87;font-size:12px;display:block;margin-bottom:6px;">Опыт</span>
+        <p style="margin:0;font-size:16px;color:#E4DCC9;">Веду частные занятия по английскому — от дошкольников до взрослых, от первого знакомства с языком до академических текстов.</p>
+      </div>
+
+      <div style="margin-top:32px;display:flex;flex-direction:column;gap:16px;">
+        <p style="margin:0;color:#C9BFA9;font-size:15.5px;line-height:1.6;">Психологическое образование — не «для галочки»: оно каждый день помогает понимать, что стоит за ошибкой или нежеланием говорить на уроке, и выстраивать занятия так, чтобы результат был устойчивым, а не вымученным.</p>
+        <p style="margin:0;color:#C9BFA9;font-size:15.5px;line-height:1.6;">Работаю по международным учебным программам, а не по стандартным российским школьным учебникам, которые не дают ни живого языка, ни системной базы.</p>
+        <p style="margin:0;color:#C9BFA9;font-size:15.5px;line-height:1.6;">Не подгоняю всех учеников под один шаблон. Малышу нужна игра, подростку — интересный контент и структура, взрослому — конкретная цель и уважение к его времени.</p>
+      </div>
+    </div>
+  </div>
+
+  <div style="padding:60px 48px 90px;text-align:center;background:#141210;">
+    <h2 style="font-size:30px;margin-bottom:24px;">Готовы начать?</h2>
+    <a href="Contact.dc.html" style="display:inline-block;padding:14px 28px;background:#D9A441;color:#1E1710;font-weight:600;border-radius:3px;font-size:15px;">Записаться на первый урок</a>
+  </div>
+
+  <footer style="padding:26px 48px;border-top:1px solid #3A3428;text-align:center;font-size:13px;color:#7A6E5A;">
+    © Владислав — репетитор английского
+  </footer>
+
+</div>
+
+</x-dc>
+</body>
+</html>
